@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 const MainNavigation = () => {
     return (
         <header className={classes.header}>
-            <div className={classes.logo}> Great Quotes </div>
+            <div className={classes.logo}> <img src={process.env.PUBLIC_URL + 'logo.png'} alt="logo" /> </div>
             <div className={classes.nav}>
                 <ul>
                     <li>

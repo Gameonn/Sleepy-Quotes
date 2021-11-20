@@ -13,6 +13,10 @@
   color: white;
 }
 
+.logo img {
+  width: 60px;
+}
+
 .nav ul {
   list-style: none;
   display: flex;
