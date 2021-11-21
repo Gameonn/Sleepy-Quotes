@@ -4,14 +4,15 @@ import { useParams, Route, Link, useRouteMatch } from 'react-router-dom';
 import Comments from '../components/comments/Comments';
 import HighlightedQuote from '../components/quotes/HighlightedQuote';
 import useHttp from '../hooks/use-http';
-import { getSingleQuote } from '../lib/api';
+import { getSingleQuote, getRandomQuote } from '../lib/api';
 import LoadingSpinner from '../components/UI/LoadingSpinner';
 
 const QuoteDetail = () => {
     const params = useParams();
     const {quoteId} = params;
     const match = useRouteMatch();
-    const {sendRequest, status, data: loadedQuote, error} = useHttp(getSingleQuote, true);
+    const {sendRequest, status, data: loadedQuote, error} = useHttp(
+        quoteId ? getSingleQuote : getRandomQuote, true);
 
     useEffect(() => {
         sendRequest(quoteId);
@@ -25,7 +26,8 @@ const QuoteDetail = () => {
 
     return (
         <div>
-            <HighlightedQuote text={loadedQuote.text} author={loadedQuote.author} />
+            {!quoteId && <button className='btn--flat' onClick={sendRequest} > Refresh </button>}
+            <HighlightedQuote {...loadedQuote} />
             <Route path={`${match.path}`} exact>
                 <div className='centered'>
                     <Link className='btn--flat' to={`${match.url}/comments`} > Show Comments </Link>

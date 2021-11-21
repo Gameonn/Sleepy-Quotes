@@ -7,7 +7,10 @@ body {
   margin: 0;
   background-color: #e7f8f8;
 }
-
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
 .centered {
   margin: 3rem auto;
   text-align: center;
@@ -30,6 +33,7 @@ body {
   padding: 0.75rem 1.5rem;
   border: 1px solid teal;
   cursor: pointer;
+  text-transform: capitalize;
 }
 
 .btn:hover,

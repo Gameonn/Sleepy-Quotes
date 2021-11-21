@@ -1,4 +1,5 @@
 const FIREBASE_DOMAIN = 'https://quote-builder-72b4f-default-rtdb.firebaseio.com';
+const QUOTE_API_DOMAIN = 'https://quote-garden.herokuapp.com/api/v3/quotes/';
 
 export async function getAllQuotes() {
   const response = await fetch(`${FIREBASE_DOMAIN}/quotes.json`);
@@ -20,6 +21,71 @@ export async function getAllQuotes() {
   }
 
   return transformedQuotes;
+}
+
+export async function getAuthorQuotes(author) {
+  const response = await fetch(`${QUOTE_API_DOMAIN}?author=${author}`);
+  const { data } = await response.json();
+
+  if (!response.ok) {
+    throw new Error(data.message || 'Could not fetch quotes.');
+  }
+
+  const transformedQuotes = [];
+
+  for (const key in data) {
+    const quoteObj = {
+      id: data[key]._id,
+      text: data[key].quoteText,
+      author: data[key].quoteAuthor,
+      genre: data[key].quoteGenre,
+    };
+
+    transformedQuotes.push(quoteObj);
+  }
+
+  return transformedQuotes;
+}
+
+export async function getGenreQuotes(genre) {
+  const response = await fetch(`${QUOTE_API_DOMAIN}?genre=${genre}`);
+  const { data } = await response.json();
+
+  if (!response.ok) {
+    throw new Error(data.message || 'Could not fetch quotes.');
+  }
+
+  const transformedQuotes = [];
+
+  for (const key in data) {
+    const quoteObj = {
+      id: data[key]._id,
+      text: data[key].quoteText,
+      author: data[key].quoteAuthor,
+      genre: data[key].quoteGenre,
+    };
+
+    transformedQuotes.push(quoteObj);
+  }
+
+  return transformedQuotes;
+}
+
+export async function getRandomQuote() {
+  const response = await fetch(`${QUOTE_API_DOMAIN}/random`);
+  const { data } = await response.json();
+  if(!response.ok) {
+    throw new Error(data.message || 'Could not generate quote');
+  }
+
+  const loadedQuote = {
+    id: data[0]._id,
+    text: data[0].quoteText,
+    author: data[0].quoteAuthor,
+    genre: data[0].quoteGenre,
+  };
+
+  return loadedQuote;
 }
 
 export async function getSingleQuote(quoteId) {

@@ -17,9 +17,9 @@ const NewCommentForm = (props) => {
 
   const submitFormHandler = (event) => {
     event.preventDefault();
-
     const enteredText = commentTextRef.current.value;
-    sendRequest( {commentData: { text: enteredText}, quoteId: props.quoteId});
+    if(enteredText.trim().length)
+      sendRequest( {commentData: { text: enteredText}, quoteId: props.quoteId});
   };
 
   return (

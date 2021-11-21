@@ -6,15 +6,14 @@ import classes from './QuoteList.module.css';
 
 const sortQuotes = (quotes, ascending) => {
   return quotes.sort((q1, q2) => {
-    if(ascending) return q1.id > q2.id ? 1 : -1;
-    else return q1.id < q2.id ? 1 : -1;
+    if(!ascending) return q1.text > q2.text ? 1 : -1;
+    else return q1.text < q2.text ? 1 : -1;
   });
 };
 
 const QuoteList = (props) => {
   const history = useHistory();
   const location = useLocation();
-  console.log(location);
   
   const queryParams = new URLSearchParams(location.search);
   const isSortAsc = queryParams.get('sort') === 'asc';
@@ -35,12 +34,7 @@ const QuoteList = (props) => {
       </div>
       <ul className={classes.list}>
         {sortedQuotes.map((quote) => (
-          <QuoteItem
-            key={quote.id}
-            id={quote.id}
-            author={quote.author}
-            text={quote.text}
-          />
+          <QuoteItem key={quote.id} {...quote} />
         ))}
       </ul>
     </Fragment>

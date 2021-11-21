@@ -4,7 +4,11 @@ import { NavLink } from 'react-router-dom'
 const MainNavigation = () => {
     return (
         <header className={classes.header}>
-            <div className={classes.logo}> <img src={process.env.PUBLIC_URL + 'logo.png'} alt="logo" /> </div>
+            <div className={classes.logo}> 
+                <NavLink to="/quotes" activeClassName={classes.active}>
+                    <img src={window.location.origin + '/logo.png'} alt="logo" />
+                </NavLink>
+            </div>
             <div className={classes.nav}>
                 <ul>
                     <li>
@@ -12,6 +16,9 @@ const MainNavigation = () => {
                     </li>
                     <li>
                         <NavLink to="/quotes/new" activeClassName={classes.active}> Add a Quote</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/quotes/generate" activeClassName={classes.active}> Generate Quote</NavLink>
                     </li>
                 </ul>
             </div>
