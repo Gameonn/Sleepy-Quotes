@@ -78,7 +78,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 # Clone this repository
 $ git clone https://github.com/Gameonn/react-quote-builder
 
-# Install dependencies
+# Install node dependencies
 $ npm install
 
 # Run the app
