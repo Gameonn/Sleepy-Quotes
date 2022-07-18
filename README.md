@@ -47,6 +47,14 @@
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/8Y3J4ucAMQpSnYTwwWW8) was to build an application to complete the given user stories.
 
+## Browser Support
+
+At present, we officially aim to support the last two versions of the following browsers:
+
+* Chrome
+* Edge
+* Firefox
+* Safari
 
 ## How To Use
 
