@@ -76,7 +76,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Gameonn/react-quote-builder
+$ git clone https://github.com/Gameonn/Sleepy-Quotes.git
 
 # Install node dependencies
 $ npm install
