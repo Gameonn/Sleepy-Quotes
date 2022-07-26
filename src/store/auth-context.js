@@ -24,7 +24,7 @@ const retrieveStoredToken = () => {
 
     const remainingTime = calculateRemainingTime(storedExpirationTime);
     
-    //clear token if remaining time is 1 min - 60000 milliseconds
+    // clear token if remaining time is 1 min - 60000 milliseconds
     if(remainingTime <= 60000) {
         localStorage.removeItem('token');
         localStorage.removeItem('expirationTime');
@@ -34,7 +34,6 @@ const retrieveStoredToken = () => {
         token: storedToken,
         duration: remainingTime
     }
-
 }
 
 export const AuthContextProvider = (props) => {
