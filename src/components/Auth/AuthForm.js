@@ -17,7 +17,6 @@ const AuthForm = () => {
   };
 
   const loginSignUpUser = (email, password, route) => {
-    console.log(process.env.REACT_APP_API_KEY, process.env.API_KEY);
     fetch(`https://identitytoolkit.googleapis.com/v1/accounts:${route}?key=${process.env.REACT_APP_API_KEY}`, 
     {
       method: 'POST',
