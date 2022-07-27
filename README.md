@@ -1,7 +1,5 @@
 <h1 align="center">Sleepy Quotes - <i>Come! Explore the quotes world!</i></h1> 
 
- > Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
-
 <img width="200px" alt="Reactjs" src="https://user-images.githubusercontent.com/6601996/179488026-8806360d-bd59-4887-9a39-cfeb595469bb.png" /> **+** <img width="170px" alt="Sleepy Quotes" src="https://user-images.githubusercontent.com/6601996/179487804-80ce5911-defd-49c6-9b9c-c1fd16d483a5.png" />
 
 ## Demo 
@@ -53,11 +51,12 @@
 
 <!-- List the features of your application or follow the template. :) -->
 - View existing quotes
-- Add new quotes
-- Add comments to existing quotes
 - Generate random quotes just with a single tap.
 - Check quotes based on author
 - Check quotes based on genre
+- Register/Login account
+- Add new quotes (only registered users)
+- Add comments to existing quotes (only registered users)
 
 ## Browser Support
 
