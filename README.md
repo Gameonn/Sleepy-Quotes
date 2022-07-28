@@ -12,7 +12,7 @@
 - [Challenge](#challenge)
 - [Built With](#built-with)
 - [Features](#features)
-- [Browser Support](#browser support)
+- [Browser Support](#browser-support)
 - [How to use](#how-to-use)
 
 ## Overview
@@ -21,7 +21,7 @@ Sleepy Quotes is the web's simplistic, user-friendly quotation site. Enjoy a dif
 
 ## Demo 
 
- Sleepy Quotes </a> 
+<a href="https://sleepy-quote-builder.netlify.app/" target="_blank"> Sleepy Quotes </a> 
 
 ## Preview
  ![image](https://user-images.githubusercontent.com/6601996/179490356-55959e1b-1c45-4f19-aa88-38517cd1ecc2.png)
