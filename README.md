@@ -1,6 +1,6 @@
 <h1 align="center">Sleepy Quotes - <i>Come! Explore the quotes world!</i></h1> 
 
-<img width="170px" alt="Sleepy Quotes" src="https://user-images.githubusercontent.com/6601996/179487804-80ce5911-defd-49c6-9b9c-c1fd16d483a5.png" /> <img width="200px" alt="Reactjs" src="https://user-images.githubusercontent.com/6601996/179488026-8806360d-bd59-4887-9a39-cfeb595469bb.png" />  
+<img height="150px" alt="Sleepy Quotes" src="https://user-images.githubusercontent.com/6601996/179487804-80ce5911-defd-49c6-9b9c-c1fd16d483a5.png" /> <img height="150px" alt="Reactjs" src="https://user-images.githubusercontent.com/6601996/179488026-8806360d-bd59-4887-9a39-cfeb595469bb.png" />  
 
 ## Demo 
 
@@ -14,6 +14,7 @@
    - User story: I generate a new random quote
    - User story: When I select quote author, I can see a list of quotes from them
    - User story: I can see quote genre under the author
+   - User story: I can see quote genre based on genre
  
  ## Preview
  ![image](https://user-images.githubusercontent.com/6601996/179490356-55959e1b-1c45-4f19-aa88-38517cd1ecc2.png)
