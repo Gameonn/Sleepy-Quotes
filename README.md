@@ -16,16 +16,11 @@
 
 ## Overview
 
-- View existing quotes
-- Add new quotes 
-- Add comments for any quotes you like 
-- Generate random quotes  
-- Check more quotes based on author
-- Check more quotes based on genre
+Sleepy Quotes is the web's simplistic, user-friendly quotation site. Enjoy a different quote every day using our **Generate Quote** feature. Send our inspirational quotes with family and friends. Check our collection of inspirational and famous quotes by authors you know and love.
 
 ## Demo 
 
-<a href="https://sleepy-quote-builder.netlify.app/" target="_blank"> Sleepy Quotes </a> 
+ Sleepy Quotes </a> 
 
  ## Preview
  ![image](https://user-images.githubusercontent.com/6601996/179490356-55959e1b-1c45-4f19-aa88-38517cd1ecc2.png)
