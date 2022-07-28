@@ -7,12 +7,13 @@
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Built With](#built-with)
+- [Demo](#demo)
+- [Preview](#preview)
+- [Challenge](#challenge)
+- [Built With](#built-with)
 - [Features](#features)
+- [Browser Support](#browser support)
 - [How to use](#how-to-use)
-
-
-<!-- OVERVIEW -->
 
 ## Overview
 
@@ -22,7 +23,7 @@ Sleepy Quotes is the web's simplistic, user-friendly quotation site. Enjoy a dif
 
  Sleepy Quotes </a> 
 
- ## Preview
+## Preview
  ![image](https://user-images.githubusercontent.com/6601996/179490356-55959e1b-1c45-4f19-aa88-38517cd1ecc2.png)
 
 ## Challenge
