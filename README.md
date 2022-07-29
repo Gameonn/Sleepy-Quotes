@@ -17,7 +17,7 @@
 
 ## Overview
 
-Sleepy Quotes is the web's simplistic, user-friendly quotation site. Enjoy a different quote every day using our **Generate Quote** feature. Send our inspirational quotes with family and friends. Check our collection of inspirational and famous quotes by authors you know and love.
+Sleepy Quotes is the web's simplistic, user-friendly quotation site. Enjoy a different quote every day using our **Generate Quote** feature. Send our inspirational quotes with your family and friends. Check out our collection of inspirational and popular quotes by great authors you know and love.
 
 ## Demo 
 
