@@ -1,12 +1,30 @@
 <h1 align="center">Sleepy Quotes - <i>Come! Explore the quotes world!</i></h1> 
 
- > Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+<img height="150px" alt="Sleepy Quotes" src="https://user-images.githubusercontent.com/6601996/179487804-80ce5911-defd-49c6-9b9c-c1fd16d483a5.png" /> <img height="150px" alt="Reactjs" src="https://user-images.githubusercontent.com/6601996/179488026-8806360d-bd59-4887-9a39-cfeb595469bb.png" />  
 
-<img width="200px" alt="Reactjs" src="https://user-images.githubusercontent.com/6601996/179488026-8806360d-bd59-4887-9a39-cfeb595469bb.png" /> **+** <img width="170px" alt="Sleepy Quotes" src="https://user-images.githubusercontent.com/6601996/179487804-80ce5911-defd-49c6-9b9c-c1fd16d483a5.png" />
+<!-- TABLE OF CONTENTS -->
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Demo](#demo)
+- [Preview](#preview)
+- [Challenge](#challenge)
+- [Built With](#built-with)
+- [Features](#features)
+- [Browser Support](#browser-support)
+- [How to use](#how-to-use)
+
+## Overview
+
+Sleepy Quotes is the web's simplistic, user-friendly quotation site. Enjoy a different quote every day using our **Generate Quote** feature. Send our inspirational quotes with family and friends. Check our collection of inspirational and famous quotes by authors you know and love.
 
 ## Demo 
 
 <a href="https://sleepy-quote-builder.netlify.app/" target="_blank"> Sleepy Quotes </a> 
+
+## Preview
+ ![image](https://user-images.githubusercontent.com/6601996/179490356-55959e1b-1c45-4f19-aa88-38517cd1ecc2.png)
 
 ## Challenge
 
@@ -14,29 +32,10 @@
 - Fulfill user stories below:
    - User story: I can see a random quote
    - User story: I generate a new random quote
+   - User story: Use Lazy loading
    - User story: When I select quote author, I can see a list of quotes from them
    - User story: I can see quote genre under the author
- 
- ## Preview
- ![image](https://user-images.githubusercontent.com/6601996/179490356-55959e1b-1c45-4f19-aa88-38517cd1ecc2.png)
-
-
-<!-- TABLE OF CONTENTS -->
-
-## Table of Contents
-
-- [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [How to use](#how-to-use)
-
-<!-- OVERVIEW -->
-
-## Overview
-
-- View existing quotes, add new quotes and add comments. Generate random quotes just with a single tap. 
-- Check more quotes based on author
-- Check more quotes based on genre
+   - User story: I can see quote genre based on genre
 
 ## Built With
 
@@ -48,16 +47,18 @@
 - Lazy loading using Suspense
 - Firebase for saving quotes
 - Custom hooks
+- Component-Scoped Styles with CSS Modules
 
 ## Features
 
 <!-- List the features of your application or follow the template. :) -->
 - View existing quotes
-- Add new quotes
-- Add comments to existing quotes
 - Generate random quotes just with a single tap.
 - Check quotes based on author
 - Check quotes based on genre
+- Register/Login account
+- Add new quotes (only registered users)
+- Add comments to existing quotes (only registered users)
 
 ## Browser Support
 
