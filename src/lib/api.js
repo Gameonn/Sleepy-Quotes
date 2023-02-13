@@ -1,5 +1,5 @@
 const FIREBASE_DOMAIN = 'https://quote-builder-72b4f-default-rtdb.firebaseio.com';
-const QUOTE_API_DOMAIN = 'https://quote-garden.herokuapp.com/api/v3/quotes/';
+const QUOTE_API_DOMAIN = 'https://quote-garden.onrender.com/api/v3/quotes/';
 
 export async function getAllQuotes() {
   const response = await fetch(`${FIREBASE_DOMAIN}/quotes.json`);
