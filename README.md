@@ -38,7 +38,7 @@ Sleepy Quotes is the web's simplistic, user-friendly quotation site. Enjoy a dif
 
 ## Built With
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+<!-- This section should list any major frameworks that you built your project using.-->
 
 - React
 - Context API
