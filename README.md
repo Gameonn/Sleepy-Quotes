@@ -50,7 +50,7 @@ Sleepy Quotes is the web's simplistic, user-friendly quotation site. Enjoy a dif
 
 ## Features
 
-<!-- List the features of your application or follow the template. :) -->
+<!-- List the features of your application or follow the template.  :) -->
 - View existing quotes
 - Generate random quotes just with a single tap.
 - Check quotes based on author
