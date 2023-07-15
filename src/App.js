@@ -4,7 +4,6 @@ import Layout from './components/layout/Layout';
 import LoadingSpinner from './components/UI/LoadingSpinner';
 import AuthContext from './store/auth-context';
 
-
 function App() {
 
   const NewQuote = React.lazy(() => import('./pages/NewQuote'));

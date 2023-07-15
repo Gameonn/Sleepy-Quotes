@@ -11,13 +11,17 @@ const QuoteItem = ({id, author, text, genre}) => {
         <blockquote>
           <p>{text}</p>
         </blockquote>
-        <figcaption>          
-        <Link to={`/quotes/author/${author}`} > {author} </Link> ,
-        <Link to={`/quotes/genre/${genre}`} > {genre} </Link>
+        <figcaption>
+        <Link to={`/quotes/author/${author}`} className="new"> {author} </Link> ,
+        <Link to={`/quotes/genre/${genre}`} className="new"> {genre} </Link>
         </figcaption>
-        
+
       </figure>
-      { isQuoteRoute && <Link to={`/quotes/${id}`} className='btn'>View Fullscreen</Link>}
+      { isQuoteRoute &&
+        <Link to={`/quotes/${id}`} className='btn'>
+          <i className="fa fa-maximize"></i>
+        </Link>
+      }
     </li>
   );
 };
