@@ -20,7 +20,6 @@
 Sleepy Quotes is the web's simplistic, user-friendly quotation site. Enjoy a different quote every day using our **Generate Quote** feature. Send our inspirational quotes with your family and friends. Check out our collection of inspirational and popular quotes by great authors you know and love.
 
 ## Demo 
-
 <a href="https://sleepy-quote-builder.netlify.app/" target="_blank"> Sleepy Quotes </a> 
 
 ## Preview
@@ -39,7 +38,7 @@ Sleepy Quotes is the web's simplistic, user-friendly quotation site. Enjoy a dif
 
 ## Built With
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+<!-- This section should list any major frameworks that you built your project using.-->
 
 - React
 - Context API
@@ -51,7 +50,7 @@ Sleepy Quotes is the web's simplistic, user-friendly quotation site. Enjoy a dif
 
 ## Features
 
-<!-- List the features of your application or follow the template. :) -->
+<!-- List the features of your application or follow the template.  :) -->
 - View existing quotes
 - Generate random quotes just with a single tap.
 - Check quotes based on author
