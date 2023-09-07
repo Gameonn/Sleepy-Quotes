@@ -24,7 +24,6 @@ Sleepy Quotes is the web's simplistic, user-friendly quotation site. Enjoy a dif
  ![image](https://user-images.githubusercontent.com/6601996/179490356-55959e1b-1c45-4f19-aa88-38517cd1ecc2.png)
 
 ## Challenge
-
 - Create a quote generator app. Use Front-end libraries Reactjs. 
 - Fulfill user stories below:
    - User story: I can see a random quote
